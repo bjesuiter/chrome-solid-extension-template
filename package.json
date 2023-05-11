@@ -15,7 +15,8 @@
     "dev:nodemon": "nodemon",
     "build:noemit": "tsc --noEmit && vite build",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "prettier": "prettier --write ."
   },
   "type": "module",
   "dependencies": {
