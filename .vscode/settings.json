@@ -3,14 +3,14 @@
     "javascript",
     "javascriptreact",
     "typescript",
-    "typescriptreact",
+    "typescriptreact"
   ],
   "editor.codeActionsOnSave": {
     "source.organizeImports": true,
-    "source.fixAll.eslint": true,
+    "source.fixAll.eslint": true
   },
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "prettier.singleQuote": true,
-  "debug.internalConsoleOptions": "neverOpen",
+  "debug.internalConsoleOptions": "neverOpen"
 }

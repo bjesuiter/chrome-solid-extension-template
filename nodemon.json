@@ -2,12 +2,8 @@
   "env": {
     "__DEV__": "true"
   },
-  "watch": [
-    "src", "utils", "vite.config.ts"
-  ],
+  "watch": ["src", "utils", "vite.config.ts"],
   "ext": "tsx,css,scss,html,ts",
-  "ignore": [
-    "src/**/*.spec.ts"
-  ],
+  "ignore": ["src/**/*.spec.ts"],
   "exec": "node_modules/.bin/vite build"
 }

@@ -19,16 +19,10 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": [
-    "solid",
-    "@typescript-eslint"
-  ],
+  "plugins": ["solid", "@typescript-eslint"],
   "rules": {},
   "globals": {
     "chrome": "readonly"
   },
-  "ignorePatterns": [
-    "watch.js",
-    "dist/**"
-  ]
+  "ignorePatterns": ["watch.js", "dist/**"]
 }
