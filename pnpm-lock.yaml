@@ -7,8 +7,8 @@ dependencies:
 
 devDependencies:
   '@crxjs/vite-plugin':
-    specifier: 2.0.0-beta.7
-    version: 2.0.0-beta.7
+    specifier: 2.0.0-beta.17
+    version: 2.0.0-beta.17
   '@types/chrome':
     specifier: 0.0.203
     version: 0.0.203
@@ -711,14 +711,15 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@crxjs/vite-plugin@2.0.0-beta.7:
-    resolution: {integrity: sha512-5BLtVwg65Rj+KxhODP1RJ83UCgaCZno6Yl9c1FBCkoPQ2vy+NcBgUvUuI2U/7mePIl7xP5X7Xs57Xjd9Gcg58w==}
+  /@crxjs/vite-plugin@2.0.0-beta.17:
+    resolution: {integrity: sha512-44CavnsY01jvF2uHfRdqA3j6bg6IcVc+ZrSayYS+H7eqb6BHWh619A2jJ3Y0eHVh9H65041ob4g6I1VMxWx4qw==}
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@webcomponents/custom-elements': 1.5.1
       acorn-walk: 8.2.0
       cheerio: 1.0.0-rc.12
       connect-injector: 0.4.4
+      convert-source-map: 1.9.0
       debug: 4.3.4
       es-module-lexer: 0.10.5
       fast-glob: 3.2.12
