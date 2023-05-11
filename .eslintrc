@@ -9,7 +9,7 @@
     "plugin:solid/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:tailwindCSS/recommended",
-    "plugin:prettier/recommended",
+    "prettier"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -23,12 +23,7 @@
     "solid",
     "@typescript-eslint"
   ],
-  "rules": {
-    "indent": [
-      "error",
-      2
-    ]
-  },
+  "rules": {},
   "globals": {
     "chrome": "readonly"
   },
