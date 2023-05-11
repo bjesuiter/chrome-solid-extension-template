@@ -1,8 +1,8 @@
 import { crx } from "@crxjs/vite-plugin";
 import { resolve } from "path";
-import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
 import WindiCSS from "vite-plugin-windicss";
+import { defineConfig } from "vitest/config";
 import manifest from "./src/manifest";
 
 const root = resolve(__dirname, "src");
@@ -51,4 +51,8 @@ export default defineConfig({
       // },
     },
   },
+  // vitest config
+  // test: {
+
+  // }
 });
