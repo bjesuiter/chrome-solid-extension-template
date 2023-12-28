@@ -4,7 +4,7 @@ import "@src/styles/tailwind.css";
 export function OptionsPage() {
   return (
     <div class="fixed inset-0 bg-[#282c34] text-white">
-      <section class="top-20 mx-auto w-[fit-content] p-5">
+      <section class="top-24 mx-auto w-[fit-content] p-5">
         <img
           src={chrome.runtime.getURL(logo)}
           class="pointer-events-none max-w-80 animate-logo-spin"
