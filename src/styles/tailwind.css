@@ -1,0 +1,8 @@
+/**
+* Import Tailwind CSS in solid app entrypoints like this 
+* import "@src/styles/tailwind.css";
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

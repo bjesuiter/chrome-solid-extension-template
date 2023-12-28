@@ -1,5 +1,5 @@
 import logo from "@assets/img/logo.svg";
-import "@src/styles/index.css";
+import "@src/styles/tailwind.css";
 import styles from "./Popup.module.css";
 
 const Popup = () => {

@@ -1,5 +1,5 @@
 import logo from "@src/assets/img/logo.svg";
-import "@src/styles/index.css";
+import "@src/styles/tailwind.css";
 import styles from "./App.module.css";
 
 export function App() {

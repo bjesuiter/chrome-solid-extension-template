@@ -1,7 +1,6 @@
 import { crx } from "@crxjs/vite-plugin";
 import { resolve } from "path";
 import solidPlugin from "vite-plugin-solid";
-import WindiCSS from "vite-plugin-windicss";
 import { defineConfig } from "vitest/config";
 import manifest from "./src/manifest";
 
@@ -18,7 +17,7 @@ if (isDev) {
 }
 
 export default defineConfig({
-  plugins: [solidPlugin(), crx({ manifest }), WindiCSS()],
+  plugins: [solidPlugin(), crx({ manifest })],
   resolve: {
     alias: {
       "@src": root,
