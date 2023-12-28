@@ -1,6 +1,5 @@
 import logo from "@src/assets/img/logo.svg";
 import "@src/styles/tailwind.css";
-import styles from "./App.module.css";
 
 export function App() {
   return (
@@ -8,7 +7,7 @@ export function App() {
       <img
         width={200}
         src={chrome.runtime.getURL(logo)}
-        class={styles.logo}
+        class="pointer-events-none animate-logo-spin"
         alt="logo"
       />
       <p class="flex flex-wrap font-bold ">
