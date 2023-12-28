@@ -4,10 +4,11 @@ import styles from "./App.module.css";
 
 const App = () => {
   return (
-    <div class="fixed right-5 top-20 z-[2000] w-80 rounded-xl bg-white">
+    <div class="fixed left-5 top-20 z-[2000] w-80 rounded-xl bg-white">
       <div class={styles.App}>
         <header class={styles.header}>
           <img
+            width={200}
             src={chrome.runtime.getURL(logo)}
             class={styles.logo}
             alt="logo"
