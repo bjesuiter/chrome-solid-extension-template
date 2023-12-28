@@ -1,26 +1,20 @@
-import logo from "@assets/img/logo.svg";
+import logo from "@src/assets/img/logo.svg";
 import "@src/styles/tailwind.css";
-import styles from "./Popup.module.css";
 
-const Popup = () => {
+export function PopupPage() {
   return (
-    <div class={styles.App}>
-      <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
-        <p class="font-bold">
-          Edit <code>src/pages/popup/Popup.tsx</code> and save to reload.
+    <div class="h-[200px] w-[400px] bg-[#282c34] text-white">
+      <section class="w-[fit-content] p-5">
+        <img
+          src={chrome.runtime.getURL(logo)}
+          class="pointer-events-none animate-logo-spin"
+          alt="logo"
+        />
+        <p class="flex flex-wrap pt-10 text-base font-bold">
+          Edit &nbsp; <code>src/pages/options/Options.tsx</code> &nbsp; and save
+          to reload.
         </p>
-        <a
-          class={styles.link}
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Solid
-        </a>
-      </header>
+      </section>
     </div>
   );
-};
-
-export default Popup;
+}
