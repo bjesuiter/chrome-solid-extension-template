@@ -4,7 +4,6 @@ import globals from "globals";
 import * as tsParser from "@typescript-eslint/parser";
 import solid from "eslint-plugin-solid/configs/typescript";
 
-// import solidRecommended from "eslint-plugin-solid/recommended";
 // import typescriptRecommended from "@typescript-eslint/eslint-plugin/dist/configs/recommended";
 // import tailwindRecommended from "eslint-plugin-tailwindcss/recommended";
 // import prettierRecommended from "eslint-config-prettier";
