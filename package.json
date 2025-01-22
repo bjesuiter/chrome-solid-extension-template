@@ -20,7 +20,7 @@
   },
   "type": "module",
   "dependencies": {
-    "solid-js": "^1.8.7"
+    "solid-js": "^1.9.4"
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "2.0.0-beta.21",
@@ -50,7 +50,7 @@
     "ts-node": "10.9.1",
     "typescript": "5.0.4",
     "vite": "4.3.5",
-    "vite-plugin-solid": "^2.7.0",
+    "vite-plugin-solid": "^2.11.0",
     "vitest": "^0.31.0"
   }
 }

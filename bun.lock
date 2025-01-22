@@ -4,7 +4,7 @@
     "": {
       "name": "solid-chrome-extension-template",
       "dependencies": {
-        "solid-js": "^1.8.7",
+        "solid-js": "^1.9.4",
       },
       "devDependencies": {
         "@crxjs/vite-plugin": "2.0.0-beta.21",
@@ -34,7 +34,7 @@
         "ts-node": "10.9.1",
         "typescript": "5.0.4",
         "vite": "4.3.5",
-        "vite-plugin-solid": "^2.7.0",
+        "vite-plugin-solid": "^2.11.0",
         "vitest": "^0.31.0",
       },
     },
@@ -1008,7 +1008,9 @@
 
     "serialize-javascript": ["serialize-javascript@6.0.1", "", { "dependencies": { "randombytes": "^2.1.0" } }, "sha512-owoXEFjWRllis8/M1Q+Cw5k8ZH40e3zhp/ovX+Xr/vi1qj6QesbyXXViFbpNvWvPNAD62SutwEXavefrLJWj7w=="],
 
-    "seroval": ["seroval@0.15.1", "", {}, "sha512-OPVtf0qmeC7RW+ScVX+7aOS+xoIM7pWcZ0jOWg2aTZigCydgRB04adfteBRbecZnnrO1WuGQ+C3tLeBBzX2zSQ=="],
+    "seroval": ["seroval@1.2.0", "", {}, "sha512-GURoU99ko2UiAgUC3qDCk59Jb3Ss4Po8VIMGkG8j5PFo2Q7y0YSMP8QG9NuL/fJCoTz9V1XZUbpNIMXPOfaGpA=="],
+
+    "seroval-plugins": ["seroval-plugins@1.2.0", "", { "peerDependencies": { "seroval": "^1.0" } }, "sha512-hULTbfzSe81jGWLH8TAJjkEvw6JWMqOo9Uq+4V4vg+HNq53hyHldM9ZOfjdzokcFysiTp9aFdV2vJpZFqKeDjQ=="],
 
     "set-function-length": ["set-function-length@1.1.1", "", { "dependencies": { "define-data-property": "^1.1.1", "get-intrinsic": "^1.2.1", "gopd": "^1.0.1", "has-property-descriptors": "^1.0.0" } }, "sha512-VoaqjbBJKiWtg4yRcKBQ7g7wnGnLV3M8oLvVWwOk2PdYY6PEFegR1vezXR0tw6fZGF9csVakIRjrJiy2veSBFQ=="],
 
@@ -1028,7 +1030,7 @@
 
     "slash": ["slash@3.0.0", "", {}, "sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q=="],
 
-    "solid-js": ["solid-js@1.8.7", "", { "dependencies": { "csstype": "^3.1.0", "seroval": "^0.15.1" } }, "sha512-9dzrSVieh2zj3SnJ02II6xZkonR6c+j/91b7XZUNcC6xSaldlqjjGh98F1fk5cRJ8ZTkzqF5fPIWDxEOs6QZXA=="],
+    "solid-js": ["solid-js@1.9.4", "", { "dependencies": { "csstype": "^3.1.0", "seroval": "^1.1.0", "seroval-plugins": "^1.1.0" } }, "sha512-ipQl8FJ31bFUoBNScDQTG3BjN6+9Rg+Q+f10bUbnO6EOTTf5NGerJeHc7wyu5I4RMHEl/WwZwUmy/PTRgxxZ8g=="],
 
     "solid-refresh": ["solid-refresh@0.6.3", "", { "dependencies": { "@babel/generator": "^7.23.6", "@babel/helper-module-imports": "^7.22.15", "@babel/types": "^7.23.6" }, "peerDependencies": { "solid-js": "^1.3" } }, "sha512-F3aPsX6hVw9ttm5LYlth8Q15x6MlI/J3Dn+o3EQyRTtTxidepSTwAYdozt01/YA+7ObcciagGEyXIopGZzQtbA=="],
 
