@@ -21,9 +21,7 @@ This boilerplate is made for creating chrome extensions using SolidJS and Typesc
 
 - [SolidJS](https://www.solidjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Jest](https://jestjs.io/)
 - [Vite](https://vitejs.dev/)
-- [SASS](https://sass-lang.com/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Chrome Extension Manifest Version 3](https://developer.chrome.com/docs/extensions/mv3/intro/)
