@@ -13,7 +13,7 @@ export default [
   ...tailwind.configs["flat/recommended"],
   {
     files: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
-    ignores: ["./dist", "!.*"],
+    ignores: ["./dist", "./coverage", "!.*"],
     ...solid,
     languageOptions: {
       parser: tsParser,
