@@ -2,24 +2,19 @@ import eslint from "@eslint/js";
 import tailwind from "eslint-plugin-tailwindcss";
 import globals from "globals";
 import ts_eslint from "typescript-eslint";
+import eslintConfigPrettier from "eslint-config-prettier";
 
 import * as tsParser from "@typescript-eslint/parser";
 import solid from "eslint-plugin-solid/configs/typescript";
-
-// import prettierRecommended from "eslint-config-prettier";
 
 export default [
   eslint.configs.recommended,
   ...ts_eslint.configs.recommended,
   ...tailwind.configs["flat/recommended"],
-  // prettierRecommended,
   {
     files: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
     ignores: ["watch.js", "dist/**"],
     ...solid,
-    // extends: [
-    // "prettier",
-    // ],
     languageOptions: {
       parser: tsParser,
       parserOptions: {
@@ -45,4 +40,5 @@ export default [
     // plugins: ["solid", "@typescript-eslint"],
     // rules: {},
   },
+  eslintConfigPrettier,
 ];
