@@ -5,7 +5,7 @@ export function PopupPage() {
   return (
     <div class="h-[200px] w-[400px] bg-[#282c34] text-white">
       <h1 class="text-xl font-bold">Popup Page Template</h1>
-      <section class="w-[fit-content] p-5">
+      <section class="w-fit p-5">
         <img
           src={chrome.runtime.getURL(logo)}
           class="pointer-events-none animate-logo-spin"
