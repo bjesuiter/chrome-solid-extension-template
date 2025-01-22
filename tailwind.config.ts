@@ -11,5 +11,11 @@ export default {
       },
     },
   },
-  plugins: [tailwindContainerQueries, tailwindcssMotion],
+
+  plugins: [
+    // Docs for ContainerQueries plugin:https://github.com/tailwindlabs/tailwindcss-container-queries
+    tailwindContainerQueries,
+    // Docs for Motion plugin: https://docs.rombo.co/tailwind
+    tailwindcssMotion,
+  ],
 } satisfies Config;
