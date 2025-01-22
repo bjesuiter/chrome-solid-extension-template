@@ -15,7 +15,6 @@ export default [
   {
     ...solid,
     files: ["src/**/*", "vite.config.ts", "utils/**/*"],
-    ignores: ["dist/**", "coverage/**", "node_modules/**", "!.*"],
     languageOptions: {
       parser: tsParser,
       parserOptions: {
@@ -40,5 +39,11 @@ export default [
     // },
     // plugins: ["solid", "@typescript-eslint"],
     // rules: {},
+  },
+  // Global ignore object
+  // (CAUTION: DO NOT add more options to this config, since ignores will stop working!)
+  // see: https://github.com/eslint/eslint/discussions/18304#discussioncomment-9069706
+  {
+    ignores: ["dist/**", "coverage/**", "node_modules/**"],
   },
 ];
