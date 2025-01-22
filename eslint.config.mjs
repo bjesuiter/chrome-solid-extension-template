@@ -10,7 +10,7 @@ import solid from "eslint-plugin-solid/configs/typescript";
 
 export default [
   eslint.configs.recommended,
-  // ts_eslint.configs.recommended,
+  ...ts_eslint.configs.recommended,
   ...tailwind.configs["flat/recommended"],
   // prettierRecommended,
   {
