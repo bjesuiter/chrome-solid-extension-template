@@ -9,7 +9,7 @@ export function OptionsPage() {
         {/* get urls for imported assets: chrome.runtime.getURL(), but NOT for images, images are inlined as data urls from vite 5 on! */}
         <img
           src={logoDataUrl}
-          class="pointer-events-none max-w-80 animate-logo-spin"
+          class="motion-preset-spin pointer-events-none max-w-80"
           alt="logo"
         />
         <p class="flex flex-wrap pt-10 text-base font-bold">
