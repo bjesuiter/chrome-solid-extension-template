@@ -2,7 +2,7 @@
   "name": "solid-chrome-extension-template",
   "displayName": "Solid Chrome Extension Template",
   "version": "0.202212.1",
-  "description": "Chrome Extension boilerplate with SolidJS + Vite + ManifestV3",
+  "description": "Chrome Extension boilerplate with SolidJS + Vite v6 + ManifestV3",
   "license": "MIT",
   "repository": {
     "type": "git",
