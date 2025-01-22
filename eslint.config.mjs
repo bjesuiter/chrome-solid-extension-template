@@ -11,10 +11,11 @@ export default [
   eslint.configs.recommended,
   ...ts_eslint.configs.recommended,
   ...tailwind.configs["flat/recommended"],
+  eslintConfigPrettier,
   {
-    files: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
-    ignores: ["./dist", "./coverage", "!.*"],
     ...solid,
+    files: ["src/**/*", "vite.config.ts", "utils/**/*"],
+    ignores: ["dist/**", "coverage/**", "node_modules/**", "!.*"],
     languageOptions: {
       parser: tsParser,
       parserOptions: {
@@ -40,5 +41,4 @@ export default [
     // plugins: ["solid", "@typescript-eslint"],
     // rules: {},
   },
-  eslintConfigPrettier,
 ];
