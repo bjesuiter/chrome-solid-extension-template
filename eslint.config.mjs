@@ -1,8 +1,8 @@
 import eslint from "@eslint/js";
+import eslintConfigPrettier from "eslint-config-prettier";
 import tailwind from "eslint-plugin-tailwindcss";
 import globals from "globals";
 import ts_eslint from "typescript-eslint";
-import eslintConfigPrettier from "eslint-config-prettier";
 
 import * as tsParser from "@typescript-eslint/parser";
 import solid from "eslint-plugin-solid/configs/typescript";
@@ -13,7 +13,7 @@ export default [
   ...tailwind.configs["flat/recommended"],
   {
     files: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
-    ignores: ["watch.js", "dist/**"],
+    ignores: ["./dist", "!.*"],
     ...solid,
     languageOptions: {
       parser: tsParser,
