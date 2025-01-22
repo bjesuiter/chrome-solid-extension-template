@@ -9,6 +9,7 @@
       "devDependencies": {
         "@crxjs/vite-plugin": "^2.0.0-beta.30",
         "@eslint/js": "^9.18.0",
+        "@tailwindcss/container-queries": "^0.1.1",
         "@types/chrome": "0.0.299",
         "@vitest/coverage-c8": "^0.33.0",
         "autoprefixer": "^10.4.20",
@@ -244,6 +245,8 @@
     "@rollup/rollup-win32-x64-msvc": ["@rollup/rollup-win32-x64-msvc@4.31.0", "", { "os": "win32", "cpu": "x64" }, "sha512-ul8rnCsUumNln5YWwz0ted2ZHFhzhRRnkpBZ+YRuHoRAlUji9KChpOUOndY7uykrPEPXVbHLlsdo6v5yXo/TXw=="],
 
     "@rtsao/scc": ["@rtsao/scc@1.1.0", "", {}, "sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g=="],
+
+    "@tailwindcss/container-queries": ["@tailwindcss/container-queries@0.1.1", "", { "peerDependencies": { "tailwindcss": ">=3.2.0" } }, "sha512-p18dswChx6WnTSaJCSGx6lTmrGzNNvm2FtXmiO6AuA1V4U5REyoqwmT6kgAsIMdjo07QdAfYXHJ4hnMtfHzWgA=="],
 
     "@tsconfig/node10": ["@tsconfig/node10@1.0.9", "", {}, "sha512-jNsYVVxU8v5g43Erja32laIDHXeoNvFEpX33OK4d6hljo3jDhCBDhx5dhCCTMWUojscpAagGiRkBKxpdl9fxqA=="],
 

@@ -25,6 +25,7 @@
   "devDependencies": {
     "@crxjs/vite-plugin": "^2.0.0-beta.30",
     "@eslint/js": "^9.18.0",
+    "@tailwindcss/container-queries": "^0.1.1",
     "@types/chrome": "0.0.299",
     "@vitest/coverage-c8": "^0.33.0",
     "autoprefixer": "^10.4.20",

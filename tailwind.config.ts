@@ -1,5 +1,6 @@
+import tailwindContainerQueries from "@tailwindcss/container-queries";
 import type { Config } from "tailwindcss";
-import tailwindcssMotion from "tailwindcss-motion";
+import * as tailwindcssMotion from "tailwindcss-motion";
 
 export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
@@ -10,5 +11,5 @@ export default {
       },
     },
   },
-  plugins: [tailwindcssMotion],
+  plugins: [tailwindContainerQueries, tailwindcssMotion],
 } satisfies Config;
