@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "vite build -w",
     "build": "vite build",
-    "lint": "eslint . --fix -c .eslintrc --ext js,ts,tsx,jsx --ignore-pattern='!.*'",
+    "lint": "eslint . --fix -c eslint.config.mjs --ignore-pattern='!.*'",
     "dev:nodemon": "nodemon",
     "build:noemit": "tsc --noEmit && vite build",
     "test": "vitest",
@@ -20,6 +20,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@eslint/js": "^9.18.0",
     "solid-js": "^1.9.4"
   },
   "devDependencies": {

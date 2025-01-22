@@ -4,6 +4,7 @@
     "": {
       "name": "solid-chrome-extension-template",
       "dependencies": {
+        "@eslint/js": "^9.18.0",
         "solid-js": "^1.9.4",
       },
       "devDependencies": {
