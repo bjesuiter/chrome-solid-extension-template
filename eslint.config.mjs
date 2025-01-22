@@ -1,5 +1,6 @@
-import js from "@eslint/js";
+import eslint from "@eslint/js";
 import globals from "globals";
+import ts_eslint from "typescript-eslint";
 
 import * as tsParser from "@typescript-eslint/parser";
 import solid from "eslint-plugin-solid/configs/typescript";
@@ -9,7 +10,8 @@ import solid from "eslint-plugin-solid/configs/typescript";
 // import prettierRecommended from "eslint-config-prettier";
 
 export default [
-  js.configs.recommended,
+  eslint.configs.recommended,
+  ts_eslint.configs.recommended,
   // solidRecommended,
   // typescriptRecommended,
   // tailwindRecommended,
