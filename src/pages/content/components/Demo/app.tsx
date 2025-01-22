@@ -1,11 +1,11 @@
-import logo from "@src/assets/img/logo.svg";
+import logoDataUrl from "@src/assets/img/logo.svg";
 import "@src/styles/tailwind.css";
 
 export function App() {
   return (
     <div class="fixed left-5 top-5 z-[2000] w-80 rounded-xl bg-[#282c34] text-white">
       <img
-        src={chrome.runtime.getURL(logo)}
+        src={logoDataUrl}
         class="pointer-events-none animate-logo-spin"
         alt="logo"
       />
