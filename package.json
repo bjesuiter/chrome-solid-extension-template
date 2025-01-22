@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fuyutarow/solid-chrome-extension-template.git"
+    "url": "https://github.com/bjesuiter/solid-chrome-extension-template.git"
   },
   "scripts": {
     "dev": "vite build -w",
