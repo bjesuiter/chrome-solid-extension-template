@@ -11,6 +11,10 @@
 
 </div>
 
+## Update: Dependencies are current (as of 2025-01-23)
+
+![green version check for dependencies in package.json](./readme_assets/image.png)
+
 ## Intro <a name="intro"></a>
 
 This boilerplate is made for creating chrome extensions using SolidJS and Typescript.
@@ -25,6 +29,8 @@ This boilerplate is made for creating chrome extensions using SolidJS and Typesc
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Chrome Extension Manifest Version 3](https://developer.chrome.com/docs/extensions/mv3/intro/)
+- [Tailwind-Motion Plugin (for slick animations!)](https://docs.rombo.co/tailwind)
+- [Tailwind Container Queries Plugin](https://github.com/tailwindlabs/tailwindcss-container-queries)
 - Hot Reload (Live reload)
 
 ## Installation <a name="installation"></a>
@@ -32,16 +38,16 @@ This boilerplate is made for creating chrome extensions using SolidJS and Typesc
 ### Procedures <a name="procedures"></a>
 
 1. Clone this repository.
-2. Change `name` and `description` in package.json => **Auto synchronize with manifest**
-3. Run `yarn` or `npm i` (check your node version >= 16)
-4. Run `yarn dev` or `npm run dev`
+2. Change `name` and `description` in package.json => **Auto synchronizes with manifest**
+3. Run `bun i` or `npm i` (check your node version >= 16)
+4. Run `bun dev` or `npm run dev`
 5. Load Extension on Chrome
    1. Open - Chrome browser
    2. Access - chrome://extensions
    3. Check - Developer mode
    4. Find - Load unpacked extension
    5. Select - `dist` folder in this project (after dev or build)
-6. If you want to build in production, Just run `yarn build` or `npm run build`.
+6. If you want to build in production, Just run `bun run build` or `npm run build`.
 
 ## Screenshots <a name="screenshots"></a>
 
