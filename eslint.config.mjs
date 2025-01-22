@@ -12,6 +12,7 @@ export default [
   ...ts_eslint.configs.recommended,
   ...tailwind.configs["flat/recommended"],
   eslintConfigPrettier,
+  // My eslint config for this repo
   {
     ...solid,
     files: ["src/**/*", "vite.config.ts", "utils/**/*"],
@@ -27,18 +28,6 @@ export default [
         chrome: "readonly",
       },
     },
-
-    // legacy config
-    // parser: "@typescript-eslint/parser",
-    // parserOptions: {
-    //   ecmaFeatures: {
-    //     jsx: true,
-    //   },
-    //   ecmaVersion: "latest",
-    //   sourceType: "module",
-    // },
-    // plugins: ["solid", "@typescript-eslint"],
-    // rules: {},
   },
   // Global ignore object
   // (CAUTION: DO NOT add more options to this config, since ignores will stop working!)
