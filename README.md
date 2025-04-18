@@ -11,9 +11,7 @@
 
 </div>
 
-## Update: Dependencies are current (as of 2025-01-23)
-
-![green version check for dependencies in package.json](./readme_assets/image.png)
+## Update: Dependencies are current (as of 2025-04-18)
 
 ## Intro <a name="intro"></a>
 
