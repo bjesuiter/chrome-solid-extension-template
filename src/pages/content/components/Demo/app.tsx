@@ -3,10 +3,10 @@ import "@src/styles/tailwind.css";
 
 export function App() {
   return (
-    <div class="fixed left-5 top-5 z-[2000] w-80 rounded-xl bg-[#282c34] text-white">
+    <div class="fixed top-5 left-5 z-[2000] w-80 rounded-xl bg-[#282c34] text-white">
       <img
         src={logoDataUrl}
-        class="pointer-events-none animate-logo-spin"
+        class="motion-preset-spin motion-duration-[2s] pointer-events-none"
         alt="logo"
       />
       <p class="flex flex-wrap font-bold">

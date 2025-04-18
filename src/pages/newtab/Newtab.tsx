@@ -6,7 +6,11 @@ const Newtab = () => {
   return (
     <div class={styles.App}>
       <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
+        <img
+          src={logo}
+          class="motion-preset-spin pointer-events-none h-[40vmin]"
+          alt="logo"
+        />
         <p class="font-bold">
           Edit <code>src/pages/newtab/Newtab.tsx</code> and save to reload.
         </p>

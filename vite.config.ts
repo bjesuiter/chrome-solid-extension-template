@@ -1,9 +1,9 @@
 import { crx } from "@crxjs/vite-plugin";
+import tailwindcss from "@tailwindcss/vite";
 import { resolve } from "path";
 import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
 import manifest from "./src/manifest";
-
 const root = resolve(__dirname, "src");
 const pagesDir = resolve(root, "pages");
 const assetsDir = resolve(root, "assets");
@@ -12,9 +12,14 @@ const publicDir = resolve(__dirname, "public");
 
 export default defineConfig(({ mode }) => {
   const isDev = mode === "development";
+  const isProd = mode === "production";
+
+  if (isDev) {
+    console.log("DEV BUILD ACTIVE!");
+  }
 
   return {
-    plugins: [solidPlugin(), crx({ manifest })],
+    plugins: [tailwindcss(), solidPlugin(), crx({ manifest })],
     resolve: {
       alias: { "@src": root, "@assets": assetsDir, "@pages": pagesDir },
     },
@@ -22,6 +27,7 @@ export default defineConfig(({ mode }) => {
     build: {
       outDir,
       sourcemap: isDev,
+      minify: isProd,
       rollupOptions: {
         // input: {
         //   devtools: resolve(pagesDir, "devtools", "index.html"),

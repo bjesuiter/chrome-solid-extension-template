@@ -3,6 +3,7 @@
 * import "@src/styles/tailwind.css";
 */
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+/* Docs for Motion plugin: https://docs.rombo.co/tailwind */
+@plugin "tailwindcss-motion";
