@@ -21,7 +21,7 @@
   },
   "type": "module",
   "dependencies": {
-    "solid-js": "^1.9.4"
+    "solid-js": "^1.9.5"
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "^2.0.0-beta.30",
