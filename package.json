@@ -32,7 +32,7 @@
     "@tailwindcss/container-queries": "^0.1.1",
     "@types/chrome": "0.0.315",
     "@vitest/coverage-c8": "^0.33.0",
-    "autoprefixer": "^10.4.20",
+    "autoprefixer": "^10.4.21",
     "eslint": "9.24.0",
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-import": "^2.31.0",
