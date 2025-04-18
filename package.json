@@ -10,7 +10,8 @@
   },
   "scripts": {
     "dev": "vite build -w --mode development",
-    "prod": "vite build --mode production",
+    "build": "vite build --mode production",
+    "prod": "bun run build",
     "lint": "eslint --fix",
     "dev:nodemon": "nodemon",
     "build:noemit": "tsc --noEmit && vite build",
