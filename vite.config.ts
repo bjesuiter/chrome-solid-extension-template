@@ -3,7 +3,9 @@ import tailwindcss from "@tailwindcss/vite";
 import { resolve } from "path";
 import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
+import Icons from "unplugin-icons/vite";
 import manifest from "./src/manifest";
+
 const root = resolve(__dirname, "src");
 const pagesDir = resolve(root, "pages");
 const assetsDir = resolve(root, "assets");
@@ -19,7 +21,12 @@ export default defineConfig(({ mode }) => {
   }
 
   return {
-    plugins: [tailwindcss(), solidPlugin(), crx({ manifest })],
+    plugins: [
+      tailwindcss(),
+      solidPlugin(),
+      Icons({ compiler: "solid" }),
+      crx({ manifest }),
+    ],
     resolve: {
       alias: { "@src": root, "@assets": assetsDir, "@pages": pagesDir },
     },
