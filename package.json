@@ -42,7 +42,7 @@
     "nodemon": "3.1.9",
     "postcss": "^8.5.1",
     "prettier": "3.4.2",
-    "prettier-plugin-tailwindcss": "^0.6.10",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^3.4.17",
     "tailwindcss-motion": "^1.0.1",
     "typescript": "5.8.3",
