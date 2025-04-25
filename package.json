@@ -9,11 +9,13 @@
     "url": "https://github.com/bjesuiter/solid-chrome-extension-template.git"
   },
   "scripts": {
-    "dev": "vite build -w --mode development",
+    "dev": "nodemon",
+    "dev_comment": "Using nodemon over vite here also rebuilds the extension manifest",
+    "dev:vite": "vite build -w --mode development",
+    "dev:nodemon": "nodemon",
     "build": "vite build --mode production",
     "prod": "bun run build",
     "lint": "eslint --fix",
-    "dev:nodemon": "nodemon",
     "build:noemit": "tsc --noEmit && vite build",
     "prettier": "prettier --write .",
     "prefinalize": "bun run build",
