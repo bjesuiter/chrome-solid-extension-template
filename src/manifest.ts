@@ -38,6 +38,7 @@ const manifest = defineManifest(async () => ({
       matches: ["*://*/*"],
     },
   ],
+  permissions: ["storage"],
 }));
 
 export default manifest;
