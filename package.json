@@ -24,6 +24,7 @@
   "type": "module",
   "dependencies": {
     "solid-js": "^1.9.5",
+    "tslog": "^4.9.3",
     "unplugin-icons": "^22.1.0"
   },
   "devDependencies": {

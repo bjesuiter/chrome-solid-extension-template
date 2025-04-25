@@ -1,8 +1,13 @@
 import logoDataUrl from "@src/assets/img/logo.svg";
 import "@src/styles/tailwind.css";
+import { mainLogger } from "@src/utils/logger";
 import DeviconLinux from "~icons/devicon/linux";
 
+const logger = mainLogger.getSubLogger({ name: "options.page" });
+
 export function OptionsPage() {
+  logger.info("Options Page Template logger example");
+
   return (
     <div class="fixed inset-0 bg-[#282c34] text-white">
       <h1 class="text-xl font-bold">Options Page Template</h1>
