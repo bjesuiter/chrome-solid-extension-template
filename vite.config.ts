@@ -30,7 +30,12 @@ export default defineConfig(({ mode }) => {
       crx({ manifest }),
     ],
     resolve: {
-      alias: { "@src": root, "@assets": assetsDir, "@pages": pagesDir },
+      alias: {
+        "@src": root,
+        "@assets": assetsDir,
+        "@pages": pagesDir,
+        "@public": publicDir,
+      },
     },
     publicDir,
     build: {

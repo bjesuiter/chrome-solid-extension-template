@@ -19,16 +19,16 @@ const manifest = defineManifest(async () => ({
     default_popup: "src/pages/popup/index.html",
     default_icon: "icons/128x128.png",
   },
-  // chrome_url_overrides: {
-  //   newtab: "src/pages/newtab/index.html",
-  // },
   icons: {
     "128": "icons/128x128.png",
   },
+  // chrome_url_overrides: {
+  //   newtab: "src/pages/newtab/index.html",
+  // },
   content_scripts: [
     {
       matches: ["http://*/*", "https://*/*", "<all_urls>"],
-      js: ["src/pages/content/index.tsx"],
+      js: ["src/pages/content/ContentScript.tsx"],
     },
   ],
   devtools_page: "src/pages/devtools/index.html",
