@@ -1,6 +1,6 @@
 import { crx } from "@crxjs/vite-plugin";
 import tailwindcss from "@tailwindcss/vite";
-import { resolve } from "path";
+import { resolve } from "node:path";
 import Icons from "unplugin-icons/vite";
 import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";

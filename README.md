@@ -56,3 +56,33 @@ This boilerplate is made for creating chrome extensions using SolidJS and Typesc
 - [ChromeExtension](https://developer.chrome.com/docs/extensions/mv3/)
 - [Rollup](https://rollupjs.org/guide/en/)
 - [Rollup-plugin-chrome-extension](https://www.extend-chrome.dev/rollup-plugin)
+
+## Dev Notes
+
+### Using Images
+
+- two ways:
+
+  1. Use a folder under `./public`
+  2. Use a folder under `./src/assets`
+
+- Images under `./public` are copied to `./dist` by vite automatically.
+  For example: `./public/icons/128x128.png` will be copied to `./dist/icons/128x128.png` and will be available at `chrome-extension://<extension-id>/icons/128x128.png`
+
+- Images under `./src/assets` will be processed by the bundler and will basically be "compiled" into the output. This is better because it may optimize the images.
+
+- Images linked in the manifest need to be available from the `./public folder`
+
+### Using Icons
+
+- Use the `unplugin-icons` plugin to use icons in your project.
+- Find icons here: https://icon-sets.iconify.design/
+- Use the following syntax to use an icon:
+
+```ts
+// Syntax: ~icons/icon-set-name/icon-name
+// The name for the import can be anything you want
+import DeviconLinux from "~icons/devicon/linux";
+```
+
+- How to setup unplugin-icons: https://github.com/unplugin/unplugin-icons
