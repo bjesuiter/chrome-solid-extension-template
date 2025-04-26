@@ -1,6 +1,6 @@
 {
-  "name": "solid-chrome-extension-template",
-  "displayName": "Solid Chrome Extension Template",
+  "name": "chrome-solid-extension-template",
+  "displayName": "Chrome + SolidJS Extension Template",
   "version": "0.1.0",
   "description": "Chrome Extension boilerplate with SolidJS + Vite v6 + ManifestV3",
   "license": "MIT",

@@ -1,5 +1,5 @@
 <div align="center">
-<img width="128" src="/src/assets/img/logo.svg" alt="logo"/>
+<img width="128" src="/public/icons/128x128.png" alt="logo"/>
 <h1> Chrome Extension Boilerplate with<br/>SolidJS 1.x + Vite v6 + TypeScript 5.x + Manifest V3 + Hot Relaod</h1>
 
 ![](https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -28,7 +28,6 @@ This boilerplate is made for creating chrome extensions using SolidJS and Typesc
 - [Prettier](https://prettier.io/)
 - [Chrome Extension Manifest Version 3](https://developer.chrome.com/docs/extensions/mv3/intro/)
 - [Tailwind-Motion Plugin (for slick animations!)](https://docs.rombo.co/tailwind)
-- [Tailwind Container Queries Plugin](https://github.com/tailwindlabs/tailwindcss-container-queries)
 - Hot Reload (Live reload)
 
 ## Installation <a name="installation"></a>
