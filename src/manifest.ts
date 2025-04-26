@@ -14,7 +14,7 @@ const manifest = defineManifest(async () => ({
   version: `${major}.${minor}.${patch}.${label}`,
   description: packageJson.description,
   options_page: "src/pages/options/index.html",
-  background: { service_worker: "src/pages/background/index.ts" },
+  background: { service_worker: "src/pages/background/background.ts" },
   action: {
     default_popup: "src/pages/popup/index.html",
     default_icon: "icons/128x128.png",
