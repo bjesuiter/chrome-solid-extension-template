@@ -14,7 +14,7 @@ export function App() {
     <dialog
       ref={setDialogRef}
       open
-      class="fixed top-[50%] left-[50%] z-[2000] w-150 -translate-x-1/2 -translate-y-1/2 rounded-xl bg-[#282c34] p-5 text-white"
+      class="fixed top-[50%] left-[50%] z-[2000] w-130 -translate-x-1/2 -translate-y-1/2 rounded-xl bg-[#282c34] p-5 text-white"
     >
       <div class="flex justify-between gap-4">
         <LogosChrome class="motion-preset-spin motion-duration-[2s] pointer-events-none inline-block text-4xl" />
