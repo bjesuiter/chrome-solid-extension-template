@@ -1,4 +1,3 @@
-import logoDataUrl from "@src/assets/img/logo.svg";
 import "@src/styles/tailwind.css";
 import { mainLogger } from "@src/utils/logger";
 import DeviconLinux from "~icons/devicon/linux";
@@ -16,7 +15,7 @@ export function OptionsPage() {
         <div class="flex flex-row items-center gap-4">
           {/* how to use imported images: */}
           <img
-            src={logoDataUrl}
+            src="/icons/128x128.png"
             class="motion-preset-spin motion-duration-2000 pointer-events-none max-w-80"
             alt="logo"
           />

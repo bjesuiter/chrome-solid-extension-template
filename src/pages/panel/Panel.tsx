@@ -1,4 +1,3 @@
-import logo from "@assets/img/logo.svg";
 import "@src/styles/index.css";
 import styles from "./Panel.module.css";
 
@@ -7,7 +6,7 @@ const Panel = () => {
     <div class={styles.App}>
       <header class={styles.header}>
         <img
-          src={logo}
+          src="/icons/128x128.png"
           class="motion-preset-spin pointer-events-none h-[40vmin]"
           alt="logo"
         />
