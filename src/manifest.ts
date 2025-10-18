@@ -8,7 +8,7 @@ const [major, minor, patch, label = "0"] = packageJson.version
   // split into version parts
   .split(/[.-]/);
 
-const manifest = defineManifest(async () => ({
+const manifest = defineManifest({
   manifest_version: 3,
   name: packageJson.displayName ?? packageJson.name,
   version: `${major}.${minor}.${patch}.${label}`,
@@ -17,10 +17,12 @@ const manifest = defineManifest(async () => ({
   background: { service_worker: "src/pages/background/background.ts" },
   action: {
     default_popup: "src/pages/popup/index.html",
-    default_icon: "icons/128x128.png",
+    default_icon: {
+      128: "public/icons/128x128.png",
+    },
   },
   icons: {
-    128: "icons/128x128.png",
+    128: "public/icons/128x128.png",
   },
   // chrome_url_overrides: {
   //   newtab: "src/pages/newtab/index.html",
@@ -39,6 +41,6 @@ const manifest = defineManifest(async () => ({
     },
   ],
   permissions: ["storage"],
-}));
+});
 
 export default manifest;
