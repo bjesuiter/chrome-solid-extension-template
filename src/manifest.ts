@@ -20,7 +20,7 @@ const manifest = defineManifest(async () => ({
     default_icon: "icons/128x128.png",
   },
   icons: {
-    "128": "icons/128x128.png",
+    128: "icons/128x128.png",
   },
   // chrome_url_overrides: {
   //   newtab: "src/pages/newtab/index.html",
