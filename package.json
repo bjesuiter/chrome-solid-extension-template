@@ -30,7 +30,7 @@
   "devDependencies": {
     "@crxjs/vite-plugin": "2.2.0",
     "@eslint/js": "9.25.1",
-    "@iconify/json": "2.2.331",
+    "@iconify/json": "2.2.397",
     "@tailwindcss/container-queries": "0.1.1",
     "@tailwindcss/vite": "4.1.4",
     "@types/chrome": "0.1.24",
@@ -50,5 +50,8 @@
     "typescript-eslint": "8.31.0",
     "vite": "7.1.10",
     "vite-plugin-solid": "2.11.9"
-  }
+  },
+  "trustedDependencies": [
+    "@tailwindcss/oxide"
+  ]
 }
