@@ -11,7 +11,10 @@
 
 </div>
 
-## Update: Dependencies are current (as of 2025-04-18)
+## Update: Dependencies are current (as of 2025-10-18)
+
+- TOOD: tailwind 5.1.14 update causes taiwlind-motion plugins @property rules to not work properly anymore. 
+  => add github issue in tailwind-motion repo or in tailwind repo
 
 ## Intro <a name="intro"></a>
 
