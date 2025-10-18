@@ -4,7 +4,7 @@ import { resolve } from "node:path";
 import Icons from "unplugin-icons/vite";
 import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
-import manifest from "./src/manifest";
+import manifest from "./src/manifest.config";
 
 const root = resolve(__dirname, "src");
 const pagesDir = resolve(root, "pages");

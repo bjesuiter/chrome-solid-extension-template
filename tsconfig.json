@@ -7,6 +7,7 @@
     "module": "esnext",
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
+    "allowImportingTsExtensions": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
@@ -28,6 +29,6 @@
     "utils",
     "vite.config.ts",
     "node_modules/@types",
-    "src/manifest.ts"
+    "src/manifest.config.ts"
   ]
 }
